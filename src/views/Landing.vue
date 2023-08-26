@@ -38,7 +38,6 @@ export default {
   height:100vh;
   background:url('../assets/bg.png');
   background-size: cover;
-  overflow:hidden;
   display:flex;
   flex-direction: row;
   align-items: center;
