@@ -33,11 +33,24 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.ft-wrapper{
-  width:100vw;
-  height:100vh;
+
+body{
   background:url('../assets/bg.png');
   background-size: cover;
+  width:100vw;
+  height:100vh;
+  overflow:hidden;
+}
+.ft-wrapper{
+
+  width:100vw;
+  height:100vh;
+  overflow:hidden;
+  background:none;
+  background:url('../assets/bg.png');
+  background-size: cover;
+  overflow-y:auto;
+
   display:flex;
   flex-direction: row;
   align-items: center;
