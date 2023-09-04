@@ -9,7 +9,7 @@
         's'
       "
     >
-      <div v-if="p.crown" class="crown"><img src="../assets/crown.png" alt="" /></div>
+      <div v-if="p.crowned" class="crown"><img src="../assets/crown.png" alt="" /></div>
       <span t>{{ p.char }}</span>
       <img :src="p.img" />
       <div class="row">
